@@ -1,0 +1,40 @@
+[
+  {
+    "id": "talk-brc-inbio-2024",
+    "type": "talk",
+    "title": "BRC-INBIO Researcher Talk",
+    "subtitle": "Digital tools for translational medical research",
+    "year": 2024,
+    "date": "2024-05-17",
+    "collaborators": ["BRC-INBIO"],
+    "venue": "BRC-INBIO",
+    "description": "Talk discussing interdisciplinary research workflows combining medicine and technology.",
+    "tags": ["Research", "Innovation", "Digital Health"],
+    "category": "Conference",
+    "status": "Delivered",
+    "thumbnail": "",
+    "featured": true,
+    "links": [{ "label": "Event Page", "url": "https://example.com", "verified": false }],
+    "proofType": "Event Listing",
+    "sourceLabel": "Organizer"
+  },
+  {
+    "id": "talk-webinar-health-sec-2023",
+    "type": "talk",
+    "title": "Healthcare Data Security Webinar",
+    "subtitle": "Cybersecurity fundamentals for researchers",
+    "year": 2023,
+    "date": "2023-11-09",
+    "collaborators": ["Academic Webinar Network"],
+    "venue": "Webinar",
+    "description": "Public webinar on secure data handling for healthcare and biomedical teams.",
+    "tags": ["Cybersecurity", "Webinar"],
+    "category": "Webinar",
+    "status": "Delivered",
+    "thumbnail": "",
+    "featured": false,
+    "links": [{ "label": "Recording", "url": "https://youtube.com", "verified": true }],
+    "proofType": "Video",
+    "sourceLabel": "YouTube"
+  }
+]

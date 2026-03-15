@@ -1,0 +1,40 @@
+[
+  {
+    "id": "award-placeholder-1",
+    "type": "award",
+    "title": "Outstanding Research Innovation Award",
+    "subtitle": "Placeholder entry for future update",
+    "year": 2025,
+    "date": "2025-01-01",
+    "collaborators": [],
+    "venue": "To be updated",
+    "description": "Add official award details, organizer, and evidence links.",
+    "tags": ["Award"],
+    "category": "Research",
+    "status": "Planned",
+    "thumbnail": "",
+    "featured": false,
+    "links": [],
+    "proofType": "Certificate",
+    "sourceLabel": "Pending"
+  },
+  {
+    "id": "award-placeholder-2",
+    "type": "competition",
+    "title": "HealthTech Competition Winner",
+    "subtitle": "Placeholder entry for future update",
+    "year": 2025,
+    "date": "2025-02-01",
+    "collaborators": [],
+    "venue": "To be updated",
+    "description": "Add detailed achievement and ranking information.",
+    "tags": ["Competition"],
+    "category": "Innovation",
+    "status": "Planned",
+    "thumbnail": "",
+    "featured": false,
+    "links": [],
+    "proofType": "Announcement",
+    "sourceLabel": "Pending"
+  }
+]

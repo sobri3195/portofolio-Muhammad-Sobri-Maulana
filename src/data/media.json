@@ -1,0 +1,21 @@
+[
+  {
+    "id": "media-1",
+    "type": "media",
+    "title": "Research Feature Interview",
+    "subtitle": "Media appearance placeholder",
+    "year": 2024,
+    "date": "2024-07-03",
+    "collaborators": ["Health Media"],
+    "venue": "Online Interview",
+    "description": "Feature on integrating digital innovation into medical practice.",
+    "tags": ["Interview", "Media"],
+    "category": "Appearance",
+    "status": "Published",
+    "thumbnail": "",
+    "featured": true,
+    "links": [{ "label": "Watch", "url": "https://example.com", "verified": false }],
+    "proofType": "Video",
+    "sourceLabel": "Media"
+  }
+]

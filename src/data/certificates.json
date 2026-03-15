@@ -1,0 +1,40 @@
+[
+  {
+    "id": "cert-placeholder-1",
+    "type": "certificate",
+    "title": "Advanced Clinical Research Methods",
+    "subtitle": "Placeholder for certificate details",
+    "year": 2025,
+    "date": "2025-03-01",
+    "collaborators": [],
+    "venue": "To be updated",
+    "description": "Insert issuer, credential id, and proof URL.",
+    "tags": ["Certificate"],
+    "category": "Research",
+    "status": "Planned",
+    "thumbnail": "",
+    "featured": false,
+    "links": [],
+    "proofType": "Credential",
+    "sourceLabel": "Pending"
+  },
+  {
+    "id": "cert-placeholder-2",
+    "type": "certificate",
+    "title": "Cybersecurity in Healthcare Systems",
+    "subtitle": "Placeholder for certificate details",
+    "year": 2025,
+    "date": "2025-04-01",
+    "collaborators": [],
+    "venue": "To be updated",
+    "description": "Insert issuer and verification link.",
+    "tags": ["Certificate", "Cybersecurity"],
+    "category": "Technology",
+    "status": "Planned",
+    "thumbnail": "",
+    "featured": false,
+    "links": [],
+    "proofType": "Credential",
+    "sourceLabel": "Pending"
+  }
+]
