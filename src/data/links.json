@@ -1,0 +1,6 @@
+[
+  { "id": "link-scholar", "label": "Google Scholar", "url": "https://scholar.google.com/", "icon": "🎓" },
+  { "id": "link-orcid", "label": "ORCID", "url": "https://orcid.org/0000-0002-4048-9109", "icon": "🧬" },
+  { "id": "link-github", "label": "GitHub", "url": "https://github.com/sobri3195", "icon": "💻" },
+  { "id": "link-youtube", "label": "YouTube", "url": "https://www.youtube.com/", "icon": "🎥" }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "Muhammad Sobri Maulana",
+  "headline": "Medical Researcher • Technologist • Cybersecurity Enthusiast • Public Speaker",
+  "location": "Jakarta, Indonesia",
+  "affiliation": "Universitas Indonesia",
+  "shortBio": "Multidisciplinary professional working at the intersection of medicine, research, technology, cybersecurity, and innovation.",
+  "about": "Muhammad Sobri Maulana builds evidence-based solutions that combine medical science with digital transformation. His portfolio includes scholarly publications, open-source projects, innovation programs, and public speaking engagements.",
+  "orcid": "0000-0002-4048-9109",
+  "googleScholar": "https://scholar.google.com/",
+  "github": "https://github.com/sobri3195",
+  "youtube": "https://www.youtube.com/",
+  "email": "sobri.maulana@example.com",
+  "focusAreas": ["Clinical Research", "Digital Health", "Medical Education", "Cybersecurity", "Innovation"],
+  "social": [
+    { "label": "Google Scholar", "url": "https://scholar.google.com/" },
+    { "label": "ORCID", "url": "https://orcid.org/0000-0002-4048-9109" },
+    { "label": "GitHub", "url": "https://github.com/sobri3195" },
+    { "label": "YouTube", "url": "https://www.youtube.com/" }
+  ]
+}
