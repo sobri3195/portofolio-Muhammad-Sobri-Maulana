@@ -1,5 +1,24 @@
 [
   {
+    "id": "pub-2026-vitamin-k-jaundice",
+    "type": "publication",
+    "title": "Does Intramuscular Vitamin K Prophylaxis Increase the Risk of Neonatal Jaundice? A Systematic Review and Meta-Analysis",
+    "subtitle": "Systematic review on neonatal outcomes",
+    "year": 2026,
+    "date": "2026-03-16",
+    "authors": ["Muhammad Sobri Maulana", "Collaborators"],
+    "venue": "Neonatal Research Journal",
+    "description": "Systematic review and meta-analysis evaluating whether intramuscular vitamin K prophylaxis is associated with increased neonatal jaundice risk.",
+    "tags": ["Vitamin K", "Neonatal Jaundice", "Systematic Review", "Meta-Analysis"],
+    "category": "ScholarlyArticle",
+    "status": "Published",
+    "thumbnail": "",
+    "featured": true,
+    "links": [{ "label": "Article Link", "url": "https://example.com", "verified": false }],
+    "proofType": "Journal",
+    "sourceLabel": "Publisher"
+  },
+  {
     "id": "pub-2020-cars",
     "type": "publication",
     "title": "Augmented Reality Application for Surgery Simulation: Circumcision Augmented Reality Simulation (CARS)",
