@@ -25,26 +25,31 @@ export default function MainLayout() {
 
   return (
     <div className={`app ${theme}`}>
-      <header className="topbar">
-        <div className="brand">MSM Portfolio</div>
+      <header className="topbar glass">
+        <div className="brand-wrap">
+          <img className="brand-logo" src="/logo.svg" alt="MSM logo" />
+          <div className="brand">MSM Portfolio</div>
+        </div>
         <input
           className="global-search"
           placeholder="Global search"
           value={globalSearch}
           onChange={(e) => setGlobalSearch(e.target.value)}
         />
-        <button onClick={() => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))}>Theme</button>
+        <button className="btn btn-soft" onClick={() => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))}>
+          {theme === 'dark' ? '☀ Light' : '🌙 Dark'}
+        </button>
       </header>
       {globalSearch && (
-        <div className="search-preview">
-          {quickResults.map((item) => (
-            <div key={item.id}>{item.title}</div>
-          ))}
+        <div className="search-preview glass">
+          {quickResults.length ? quickResults.map((item) => (
+            <div key={item.id} className="search-item">{item.title}</div>
+          )) : <div className="search-item">No matching records found.</div>}
         </div>
       )}
-      <nav>
+      <nav className="glass nav-wrap">
         {navItems.map(([to, label]) => (
-          <NavLink key={to} to={to} end={to === '/'}>
+          <NavLink key={to} to={to} end={to === '/'} className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
             {label}
           </NavLink>
         ))}
