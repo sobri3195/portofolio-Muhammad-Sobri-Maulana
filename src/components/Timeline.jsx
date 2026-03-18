@@ -7,6 +7,7 @@ export default function Timeline({ items }) {
           <div>
             <strong>{item.date}</strong>
             <p>{item.title}</p>
+            <small>{item.datasetLabel} • {item.venue}</small>
           </div>
         </div>
       ))}

@@ -3,14 +3,31 @@ import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 
 export default [
+  {
+    ignores: ['dist/**'],
+  },
   js.configs.recommended,
   {
     files: ['**/*.{js,jsx}'],
-    languageOptions: { ecmaVersion: 2021, sourceType: 'module' },
+    languageOptions: {
+      ecmaVersion: 2021,
+      sourceType: 'module',
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+      globals: {
+        document: 'readonly',
+        navigator: 'readonly',
+        window: 'readonly',
+      },
+    },
     plugins: { 'react-hooks': reactHooks, 'react-refresh': reactRefresh },
     rules: {
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': 'warn',
+      'no-unused-vars': 'off',
     },
   },
 ]
